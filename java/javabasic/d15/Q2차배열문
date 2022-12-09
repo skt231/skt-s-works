@@ -1,0 +1,241 @@
+package d21;
+
+public class Q2차원배열문 {
+	static int[][] arr = new int[3][3];
+
+	public static void main(String[] args) {
+
+		// 1.
+
+//		
+//		//출력부분
+//		for(int i=0;i<arr.length;i++) {
+//			for(int j=0;j<arr[i].length;j++) {
+//				arr[i][j]=1;
+//				System.out.print(arr[i][j] + " ");
+//			}
+//			System.out.println();
+//		}
+
+		// tt1
+
+//		//생성부분
+//		
+//		//출력부분
+//		//i:0,1,2
+//		for(int i=0;i<arr.length;i++) {
+//			//i:2
+//			
+//			//j : 0 1 2
+//			for(int j=0;j<arr[i].length;j++) {
+//				//j:2
+//				arr[i][j]=1; 
+//				//저장
+//				System.out.print(arr[i][j] + " ");
+//				//출력
+//			}
+//			System.out.println();
+//		}
+//---------------------------------------------------------------------
+		// 2.
+
+//
+//		// 출력부분
+//		for (int i = 0; i < arr.length; i++) {
+//			for (int j = 0; j < arr[i].length; j++) {
+//				arr[i][j] =i+1;
+//				System.out.print(arr[i][j] + " ");
+//			}
+//			System.out.println();
+//		}
+		// ------------------------------------------------------------
+		// 3.
+
+		// 출력부분
+//		for (int i = 0; i < arr.length; i++) {
+//			for (int j = 0; j < arr[i].length; j++) {
+//				arr[i][j] =j+1;
+//				System.out.print(arr[i][j] + " ");
+//			}
+//			System.out.println();
+//		}
+		// ------------------------------------------------------------
+		// 4.
+
+//		 
+//		// 출력부분
+//		for (int i = 0; i < arr.length; i++) {
+//			for (int j = 0; j < arr[i].length; j++) {
+//				arr[i][j] = i*arr.length+j + 1;
+//				
+//				System.out.print(arr[i][j] + " ");
+//				
+//			}
+//			System.out.println();
+//		}
+
+		// tt****
+//		int num = 1;
+//		for (int i = 0; i < arr.length; i++) {
+//			for (int j = 0; j < arr[i].length; j++) {
+//
+//				arr[i][j] = num++;
+//			}
+//
+//		}
+//
+//		// 출력부분
+//		for (int i = 0; i < arr.length; i++)
+//
+//		{
+//			for (int j = 0; j < arr[i].length; j++) {
+//				System.out.print(arr[i][j] + " ");
+//			}
+//			System.out.println();
+//		}
+
+		// ------------------------------------------------------------
+		// 5.
+
+//		 
+//		// 출력부분
+//		for (int i = 0; i < arr.length; i++) {
+//			for (int j = 0; j < arr[i].length; j++) {
+//				arr[i][j] = j*arr.length+i + 1;
+//				
+//				System.out.print(arr[i][j] + " ");
+//				
+//			}
+//			System.out.println();
+//	}
+//	}
+
+//		  for (int j = 0; j < arr.length; j++) {
+//			  for (int i = 0; i < arr.length; i++) {
+//				  arr[i][j] = i*arr.length+j + 1;
+//			  }
+//			  int i;
+//			System.out.print(arr[i][j] + " ");
+//		  }
+//		  System.out.println();
+//	}
+//}
+//tt********
+//		int num = 1;
+//		for (int i = 0; i < arr.length; i++) {
+//			for (int j = 0; j < arr[i].length; j++) {
+//
+//				arr[j][i] = num++;
+//			}
+//
+//		}
+//
+//		// 출력부분
+//		for (int i = 0; i < arr.length; i++)
+//
+//		{
+//			for (int j = 0; j < arr[i].length; j++) {
+//				System.out.print(arr[i][j] + " ");
+//			}
+//			System.out.println();
+//		}
+//------------------------------------------------------------
+// 6.
+
+//
+//		// 출력부분
+//		for (int i = arr.length - 1; i >= 0; i--) {
+//			for (int j = arr[i].length - 1; j >= 0; j--) {
+//
+//				arr[i][j] = i * arr.length + j + 1;
+//
+//				System.out.print(arr[i][j] + " ");
+//
+//			}
+//			System.out.println();
+//		}
+
+//		
+//		for(int i=1;i<=arr.length;i++) {
+//			for(int j=1;j<=arr.length;j++) {
+//				arr[i+2][j+2]=(i+2) * arr.length + j + 1;
+//			}
+//		}
+
+		// tt***
+//1)
+//			int num = 9;
+//			for (int i = 0; i < arr.length; i++) {
+//				for (int j = 0; j < arr[i].length; j++) {
+//
+//					arr[i][j] = num--;//1 2 3 4 ...9
+//				}
+//
+//			}
+//
+//			// 출력부분
+//			for (int i = 0; i < arr.length; i++)
+//
+//			{
+//				for (int j = 0; j < arr[i].length; j++) {
+//					System.out.print(arr[i][j] + " ");
+//				}
+//				System.out.println();
+//			}
+
+		// 2)
+//		int num = 1;
+//		for (int i = arr.length-1; i >= 0; i--) {
+//			for (int j = arr[i].length-1; j >= 0; j--) {
+//
+//				arr[i][j] = num++;//1 2 3 4 ...9
+//			}
+//
+//		}
+//
+//		// 출력부분
+//		for (int i = 0; i < arr.length; i++)
+//
+//		{
+//			for (int j = 0; j < arr[i].length; j++) {
+//				System.out.print(arr[i][j] + " ");
+//			}
+//			System.out.println();
+//		}
+
+//------------------------------------------------------------
+// 7.
+
+//
+//		// 출력부분
+//		for (int i = arr.length-1; i >= 0; i--) {
+//			for (int j = arr[i].length-1; j >= 0; j--) {
+//				arr[i][j] =  j*arr.length+i + 1;
+//
+//				System.out.print(arr[i][j] + " ");
+//
+//			}
+//			System.out.println();
+//		}
+
+		// tt***
+//		int num = 1;
+//		for (int i = arr.length-1; i >= 0; i--) {
+//			for (int j = arr[i].length-1; j >= 0; j--) {
+//
+//				arr[j][i] = num++;//1 2 3 4 ...9
+//			}
+//
+//		}
+//
+//		// 출력부분
+//		for (int i = 0; i < arr.length; i++)
+//
+//		{
+//			for (int j = 0; j < arr[i].length; j++) {
+//				System.out.print(arr[i][j] + " ");
+//			}
+//			System.out.println();
+//		}
+	}
+}
